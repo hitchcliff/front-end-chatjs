@@ -49,5 +49,5 @@ chatbox.toggleIcon(false, chatButton);
 ``` 
 
 ### 5). Linked all CSS and JS files in index.html
-
-
+#Example
+![Example Outout](http://g.recordit.co/wvNlpakfKl.gif)
