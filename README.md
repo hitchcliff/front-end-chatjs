@@ -39,8 +39,13 @@
 ```
 const chatButton = document.querySelector('.chatbox__button');
 const chatContent = document.querySelector('.chatbox__support');
-const chatbox = new InteractiveChatbox(chatButton, chatContent);
+const icons = {
+    isClicked: 'Clicked',
+    isNotClicked: 'Not Clicked" />'
+}
+const chatbox = new InteractiveChatbox(chatButton, chatContent, icons);
 chatbox.display();
+chatbox.toggleIcon(false, chatButton);
 ``` 
 
 ### 5). Linked all CSS and JS files in index.html
