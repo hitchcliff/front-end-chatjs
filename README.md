@@ -9,16 +9,18 @@
             Chat support!
         </div>
         <div class="messages">
-            <div class="messages__item--visitor">
-                Hi!
-            </div>
-            <div class="messages__item--operator">
-                What is it?
-            </div>
-            .<div class="messages__item--typing">
-                <span class="messages__dot"></span>
-                <span class="messages__dot"></span>
-                <span class="messages__dot"></span>
+            <div>
+                <div class="messages__item--visitor">
+                    Hi!
+                </div>
+                <div class="messages__item--operator">
+                    What is it?
+                </div>
+                .<div class="messages__item--typing">
+                    <span class="messages__dot"></span>
+                    <span class="messages__dot"></span>
+                    <span class="messages__dot"></span>
+                </div>
             </div>
         </div>
         <div class="chatbox__footer">
